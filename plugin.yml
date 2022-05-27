@@ -1,0 +1,26 @@
+main: in.glennjam.EmotesRedux.EmotesRedux
+name: EmotesRedux
+version: 1.0
+author: TheRealSimShady
+description: Configurable emotes plugin.
+commands:
+    emote:
+        description: Send an emote.
+        usage: /emote
+        permission: emotes.use
+        permission-message: You don't have permission.
+    emoteop:
+        description: Send an emote without cooldown.
+        usage: /emoteop
+        permission: emotes.admin
+        permission-message: You don't have permission.
+    emotes:
+        description: Emotes help and available actions.
+        usage: /emotes
+        permission: emotes.use
+        permission-message: You don't have permission.
+    erreload:
+        description: Reloads configuration.
+        usage: /emotes
+        permission: emotes.admin
+        permission-message: You don't have permission.

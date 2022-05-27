@@ -1,0 +1,38 @@
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# EmotesRedux Configuration
+#
+# Emotes follow a similar syntax of %sender% and %target%.
+# %sender% is the player sending the emote, %target% is the player the emote is directed to.
+#
+# Formatting codes are supported.
+# 
+# After editing the configuration, run /erreload or restart your server.
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# 
+# Cooldown time, in seconds, for emote usage.
+# Default is 10 seconds.
+# Psst!  Skip the cooldown using /emoteop instead of /emote!
+cooldown: 10
+
+# All user-accessible emotes.
+# If the player sending the emote is Bob, and the player receiving the emote is John,
+# The emote '%sender% waved to %target%!' becomes 'Bob waved to John!'
+emotes:
+    careabout: "&7%sender% &b&ocares about &7%target%!"
+    flipoff: "&7%sender% &c&oflipped off &7%target%!"
+    hate: "&7%sender% &c&ohates &7%target%!"
+    hug: "&7%sender% &c&ohugged &7%target%!"
+    killed: "&7%sender% &c&okilled &7%target%!"
+    killedirl: "&7%sender% &c&okilled &7%target% &c&o(IRL)!"
+    like: "&7%sender% &b&olikes &7%target%!"
+    likeasfriend: "&7%sender% &b&olikes &7%target% &b&o(as a friend)!"
+    love: "&7%sender% &b&oloves &7%target%!"
+    nocareabout: "&7%sender% &c&odoesn't care about &7%target%!"
+    punch: "&7%sender% &c&opunched &7%target%!"
+    slap: "&7%sender% &c&oslapped &7%target%!"
+    stab: "&7%sender% &c&ostabbed &7%target%!"
+    sus: "&7%sender% &c&othinks &7%target% &c&ois sus!"
+    thank: "&7%sender% &b&othanked &7%target%!"
+    wave: "&7%sender% &b&owaved to &7%target%!"
+    wavegb: "&7%sender% &b&owaved goodbye to &7%target%!"
+    welcome: "&7%sender% &b&owelcomed &7%target% &b&oto the server!"
